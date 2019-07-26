@@ -1,4 +1,5 @@
-# Elite Chat ![logo](./images/fav.png)
+# Elite Chat
+![logo](./images/fav.png)
 ### _robot chat with sound_
 ---
 ~~frameworkes~~ ~~libraries~~ just javascript
