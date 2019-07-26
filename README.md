@@ -1,4 +1,4 @@
-# Elite Chat ![logo]("https://github.com/ahmadfathy97/Elite-Chat/blob/master/images/fav.png")
+# Elite Chat ![logo]("./images/fav.png")
 ### _robot chat with sound_
 ---
 ~~frameworkes~~ ~~libraries~~ just javascript
