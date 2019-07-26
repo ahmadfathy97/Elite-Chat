@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Caht</title>
+    <link href="https://fonts.googleapis.com/css?family=Nova+Flat&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="icon" href="./images/fav.png" />
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Elite Chat</h1>
+      <div class="chat-box">
+        <ul id="chat-content">
+          <li class="robot">hi...</li>
+        </ul>
+        <button id="btn">
+            <!--<i class="fas fa-microphone-alt"></i>-->
+               <svg width="40" height="40">
+                <path class="st0" d="M0.813,15.75"/>
+                <g class="mic-container">
+                    <path class="mic" d="M20,4.75c-3.59,0-6.5,2.75-6.5,6.75h2.539c0.358,0,0.648,0.534,0.648,1s-0.29,1-0.648,1H13.5v2h2.539
+                        c0.358,0,0.648,0.534,0.648,1s-0.29,1-0.648,1H13.5v2h2.539c0.358,0,0.648,0.534,0.648,1c0,0.467-0.29,1-0.648,1H13.5V22
+                        c0,3.59,2.91,6.5,6.5,6.5s6.5-2.91,6.5-6.5V11C26.5,7.41,23.59,4.75,20,4.75z"/>
+                    <path class="mic-leg" d="M12.375,16.625c0,0-2.125,11.563,7.625,13.375"/>
+                    <path class="mic-leg" d="M27.805,16.625c0,0,2.125,11.563-7.625,13.375"/>
+                    <line class="mic-leg" x1="20.18" y1="29.5" x2="20" y2="34.875"/>
+                    <line class="mic-leg" x1="17" y1="34.5" x2="23" y2="34.5"/>
+                </g>
+            </svg>
+
+        </button>
+      </div>
+    </div>
+    <div id="loader">
+        <svg width="300" height="300">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#598ba2;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#cecece;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <path class="load-shape" stroke="url(#grad1)" d="M251.8 236.36L256.14 211.55C246.17 211.55 240.64 211.55 239.53 211.55C230.75 211.55 223.64 204.16 223.64 195.06C223.64 183.56 223.64 91.62 223.64 80.13C223.64 71.02 230.75 63.64 239.53 63.64C258.81 63.64 413.01 63.64 432.29 63.64C441.06 63.64 448.18 71.02 448.18 80.13C448.18 91.62 448.18 183.56 448.18 195.06C448.18 204.16 441.06 211.55 432.29 211.55C423.54 211.55 379.79 211.55 301.04 211.55L251.8 236.36Z"></path>
+          <text class="load-text" fill="#ffffff" font-size="45" font-family="cursive" x="65" y="150">Loading</text>
+        </svg>
+    </div>
+    <audio id="mouse-click" src="./sounds/click.mp3"></audio>
+    <audio id="popup-sound" src="./sounds/popup.mp3"></audio>
+    <script src="./js/main.js"></script>
+</body>
+</html>
