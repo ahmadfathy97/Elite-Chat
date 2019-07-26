@@ -16,10 +16,7 @@
 * elite can tell you the time and the date
 * elite can tell you other stuff
 ---
-_you can use
-```bash 
-  enter
-```_
+_you can use the key __enter__ instead of click the mic button_
 ---
 wanna see [Elite Chat](http://elitechat.netlify.com "elite chat") ?
 ---
