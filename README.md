@@ -16,7 +16,7 @@
 * elite can tell you the time and the date
 * elite can tell you other stuff
 ---
-_you can use the key __enter__ instead of click the mic button_
+you can use the key _"enter"_ instead of click the mic button
 ---
 wanna see [Elite Chat](http://elitechat.netlify.com "elite chat") ?
 ---
