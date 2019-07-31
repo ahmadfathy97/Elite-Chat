@@ -8,6 +8,7 @@ const speechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 const recognition = new speechRecognition();
 let userText;
 let randomJoke;
+let yesOrNo = ['yes', 'yep', 'yeah', 'sure', 'no' , 'of cource', 'i am not sure', 'of course no', 'absolutely', 'maybe'];
 window.onload = ()=>{
   getJoke();
   loader.style.display = "none";
@@ -112,6 +113,28 @@ function robot(){
     userText.includes("Ahmad who")
   ) {
     robotText = "ahmad is the developer who created me"    
+  } else if (
+    userText.startsWith("are you") ||
+    userText.startsWith("do you") ||
+    userText.startsWith("have you") ||
+    userText.startsWith("had you") ||
+    userText.startsWith("will you") ||
+    userText.startsWith("did you") ||
+    userText.startsWith("are not you") ||
+    userText.startsWith("do not you") ||
+    userText.startsWith("have not you") ||
+    userText.startsWith("had not you") ||
+    userText.startsWith("will not you") ||
+    userText.startsWith("did not you") ||
+    userText.startsWith("are n't you") ||
+    userText.startsWith("don't you") ||
+    userText.startsWith("haven't you") ||
+    userText.startsWith("hadn't you") ||
+    userText.startsWith("wont nt you") ||
+    userText.startsWith("didn't you")
+
+  ) {
+    robotText = yesOrNo[Math.floor(Math.random() * yesOrNo.length)];    
   } else if (
     userText.includes("old are you") ||
     userText.includes("your age") 
