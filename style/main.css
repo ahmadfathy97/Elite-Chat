@@ -12,11 +12,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgba(255, 25, 25, 0);
+  background: #283236;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #283236;
+  background: #fff;
 }
 
 .container {
@@ -151,6 +151,16 @@ button:active{
 }
 .load-text{
     animation: load-opacity .5s ease infinite alternate
+}
+footer{
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: #283236;
+    font-weight: 900
 }
 @keyframes speak{
   100%{
