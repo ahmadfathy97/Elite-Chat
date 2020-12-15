@@ -16,7 +16,7 @@ window.onload = ()=>{
 }
 function getJoke(){
   //https://api.chucknorris.io/jokes/random
-  fetch('https://sv443.net/jokeapi/category/dark/').then(res=> res.json()).then((joke)=>{
+  fetch('https://sv443.net/jokeapi/v2/joke/Programming?type=twopart').then(res=> res.json()).then((joke)=>{
     randomJoke = joke.setup != undefined ? (joke.setup + ".   " + joke.delivery) : "i am not in the mood right now";
   });
 }
